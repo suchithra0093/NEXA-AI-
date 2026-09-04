@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXA AI — Discover the Future of AI Tools</title>
+
+    <meta
+        name="description"
+        content="NEXA AI — Discover the best AI tools for writing, image generation, coding, video, study, marketing and productivity."
+    >
+
+    <meta
+        name="keywords"
+        content="AI tools, artificial intelligence, AI tools directory, AI writing tools, AI image tools, AI coding tools"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <div class="background-grid"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+    <canvas id="particles"></canvas>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>NEXA<span class="logo-ai">AI</span></span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#home">Home</a>
+                <a href="#tools">AI Tools</a>
+                <a href="#trending">Trending</a>
+                <a href="#categories">Categories</a>
+                <a href="#about">About</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="nav-submit">
+                    + Submit Tool
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open menu"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#home">Home</a>
+            <a href="#tools">AI Tools</a>
+            <a href="#trending">Trending</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    The future of AI discovery
+                </div>
+
+                <h1>
+                    Discover the
+                    <span class="gradient-text">AI tools</span>
+                    shaping tomorrow.
+                </h1>
+
+                <p class="hero-description">
+                    Explore powerful AI tools for creativity, coding,
+                    productivity, business, study and everything in between.
+                </p>
+
+
+                <!-- SEARCH -->
+
+                <div class="hero-search">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="text"
+                        id="heroSearch"
+                        placeholder="Search AI tools..."
+                        autocomplete="off"
+                    >
+
+                    <button id="searchButton">
+                        Search
+                    </button>
+
+                </div>
+
+
+                <div class="popular-searches">
+
+                    <span>Popular:</span>
+
+                    <button data-search="ChatGPT">
+                        ChatGPT
+                    </button>
+
+                    <button data-search="Image Generator">
+                        Image Generator
+                    </button>
+
+                    <button data-search="Coding">
+                        Coding
+                    </button>
+
+                    <button data-search="Video">
+                        Video
+                    </button>
+
+                </div>
+
+
+                <!-- HERO STATS -->
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>1,000+</strong>
+                        <span>AI Tools</span>
+                    </div>
+
+                    <div>
+                        <strong>40+</strong>
+                        <span>Categories</span>
+                    </div>
+
+                    <div>
+                        <strong>50K+</strong>
+                        <span>Monthly Users</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="ai-core">
+
+                    <div class="core-ring"></div>
+
+                    <div class="core-content">
+                        <span>✦</span>
+                        <strong>AI</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card card-top">
+
+                    <span class="floating-icon">✍️</span>
+
+                    <div>
+                        <strong>WriteAI</strong>
+                        <small>AI Writing</small>
+                    </div>
+
+                    <span class="card-star">★</span>
+
+                </div>
+
+
+                <div class="floating-card card-left">
+
+                    <span class="floating-icon">🎨</span>
+
+                    <div>
+                        <strong>PixelMind</strong>
+                        <small>AI Image</small>
+                    </div>
+
+                    <span class="card-star">★</span>
+
+                </div>
+
+
+                <div class="floating-card card-right">
+
+                    <span class="floating-icon">💻</span>
+
+                    <div>
+                        <strong>CodeNova</strong>
+                        <small>AI Coding</small>
+                    </div>
+
+                    <span class="card-star">★</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories section" id="categories">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="eyebrow">EXPLORE</span>
+
+                        <h2>
+                            Find the right
+                            <span class="gradient-text">AI category.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        From creative tools to developer assistants,
+                        discover AI built for your workflow.
+                    </p>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <button class="category-card active" data-category="All">
+
+                        <span class="category-icon">✦</span>
+
+                        <strong>All Tools</strong>
+
+                        <small>1,000+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Writing">
+
+                        <span class="category-icon">✍️</span>
+
+                        <strong>Writing</strong>
+
+                        <small>180+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Image">
+
+                        <span class="category-icon">🎨</span>
+
+                        <strong>Image</strong>
+
+                        <small>240+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Video">
+
+                        <span class="category-icon">🎬</span>
+
+                        <strong>Video</strong>
+
+                        <small>120+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Coding">
+
+                        <span class="category-icon">💻</span>
+
+                        <strong>Coding</strong>
+
+                        <small>150+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Study">
+
+                        <span class="category-icon">🎓</span>
+
+                        <strong>Study</strong>
+
+                        <small>90+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Marketing">
+
+                        <span class="category-icon">📈</span>
+
+                        <strong>Marketing</strong>
+
+                        <small>130+ tools</small>
+
+                    </button>
+
+
+                    <button class="category-card" data-category="Audio">
+
+                        <span class="category-icon">🎧</span>
+
+                        <strong>Audio</strong>
+
+                        <small>80+ tools</small>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TRENDING ================= -->
+
+        <section class="tools-section section" id="trending">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            TRENDING NOW
+                        </span>
+
+                        <h2>
+                            What's hot in
+                            <span class="gradient-text">AI.</span>
+                        </h2>
+
+                    </div>
+
+                    <button class="view-all">
+                        View all →
+                    </button>
+
+                </div>
+
+
+                <div class="tools-grid" id="toolsGrid">
+
+
+                    <!-- TOOL 1 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Writing"
+                        data-name="WriteAI"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo writing">
+                                W
+                            </div>
+
+                            <span class="tool-badge">
+                                🔥 Trending
+                            </span>
+
+                        </div>
+
+                        <h3>WriteAI</h3>
+
+                        <p>
+                            Create high-quality articles, emails,
+                            captions and content with AI.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>✍️ Writing</span>
+
+                            <span>★ 4.9</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="WriteAI"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                    <!-- TOOL 2 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Image"
+                        data-name="PixelMind"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo image">
+                                P
+                            </div>
+
+                            <span class="tool-badge new">
+                                ✨ New
+                            </span>
+
+                        </div>
+
+                        <h3>PixelMind</h3>
+
+                        <p>
+                            Turn your ideas into stunning AI-generated
+                            artwork in seconds.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>🎨 Image</span>
+
+                            <span>★ 4.8</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="PixelMind"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                    <!-- TOOL 3 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Coding"
+                        data-name="CodeNova"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo coding">
+                                &lt;/&gt;
+                            </div>
+
+                            <span class="tool-badge">
+                                🔥 Popular
+                            </span>
+
+                        </div>
+
+                        <h3>CodeNova</h3>
+
+                        <p>
+                            Build, debug and understand code
+                            with your AI coding companion.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>💻 Coding</span>
+
+                            <span>★ 4.9</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="CodeNova"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                    <!-- TOOL 4 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Video"
+                        data-name="MotionAI"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo video">
+                                M
+                            </div>
+
+                            <span class="tool-badge">
+                                🔥 Trending
+                            </span>
+
+                        </div>
+
+                        <h3>MotionAI</h3>
+
+                        <p>
+                            Transform text and ideas into
+                            engaging AI-generated videos.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>🎬 Video</span>
+
+                            <span>★ 4.7</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="MotionAI"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                    <!-- TOOL 5 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Study"
+                        data-name="StudyFlow"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo study">
+                                S
+                            </div>
+
+                            <span class="tool-badge new">
+                                ✨ New
+                            </span>
+
+                        </div>
+
+                        <h3>StudyFlow</h3>
+
+                        <p>
+                            Generate notes, quizzes and flashcards
+                            from your study material.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>🎓 Study</span>
+
+                            <span>★ 4.8</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="StudyFlow"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                    <!-- TOOL 6 -->
+
+                    <article
+                        class="tool-card"
+                        data-category="Marketing"
+                        data-name="MarketMind"
+                    >
+
+                        <div class="tool-top">
+
+                            <div class="tool-logo marketing">
+                                M
+                            </div>
+
+                            <span class="tool-badge">
+                                Popular
+                            </span>
+
+                        </div>
+
+                        <h3>MarketMind</h3>
+
+                        <p>
+                            Generate campaigns, social posts and
+                            marketing strategies with AI.
+                        </p>
+
+                        <div class="tool-meta">
+
+                            <span>📈 Marketing</span>
+
+                            <span>★ 4.6</span>
+
+                        </div>
+
+                        <button
+                            class="tool-button"
+                            data-tool="MarketMind"
+                        >
+                            Explore Tool →
+                        </button>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY NEXA ================= -->
+
+        <section class="why-section section" id="about">
+
+            <div class="container">
+
+                <div class="why-content">
+
+                    <div class="why-text">
+
+                        <span class="eyebrow">
+                            WHY NEXA
+                        </span>
+
+                        <h2>
+                            AI is moving fast.
+                            <span class="gradient-text">
+                                We help you keep up.
+                            </span>
+                        </h2>
+
+                        <p>
+                            Thousands of AI products appear every month.
+                            NEXA AI helps you discover the tools that
+                            actually matter.
+                        </p>
+
+                        <div class="feature-list">
+
+                            <div class="feature">
+
+                                <span>✓</span>
+
+                                <div>
+                                    <strong>
+                                        Carefully discovered
+                                    </strong>
+
+                                    <p>
+                                        Find useful AI tools without
+                                        endless searching.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="feature">
+
+                                <span>✓</span>
+
+                                <div>
+                                    <strong>
+                                        Organized by category
+                                    </strong>
+
+                                    <p>
+                                        Quickly find exactly what you need.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="feature">
+
+                                <span>✓</span>
+
+                                <div>
+                                    <strong>
+                                        Always evolving
+                                    </strong>
+
+                                    <p>
+                                        Discover new AI products every week.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="why-visual">
+
+                        <div class="dashboard-card">
+
+                            <div class="dashboard-header">
+
+                                <span>
+                                    NEXA Dashboard
+                                </span>
+
+                                <span class="live">
+                                    ● LIVE
+                                </span>
+
+                            </div>
+
+
+                            <div class="dashboard-number">
+                                1,248
+                                <small>AI tools indexed</small>
+                            </div>
+
+
+                            <div class="fake-chart">
+
+                                <span style="height:35%"></span>
+                                <span style="height:55%"></span>
+                                <span style="height:45%"></span>
+                                <span style="height:75%"></span>
+                                <span style="height:60%"></span>
+                                <span style="height:90%"></span>
+                                <span style="height:78%"></span>
+                                <span style="height:100%"></span>
+
+                            </div>
+
+
+                            <div class="dashboard-bottom">
+
+                                <div>
+                                    <small>New this week</small>
+                                    <strong>+87</strong>
+                                </div>
+
+                                <div>
+                                    <small>Categories</small>
+                                    <strong>42</strong>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div class="cta-decoration"></div>
+
+                    <span class="eyebrow">
+                        JOIN THE AI REVOLUTION
+                    </span>
+
+                    <h2>
+                        Discover what's
+                        <span class="gradient-text">
+                            possible.
+                        </span>
+                    </h2>
+
+                    <p>
+                        Get the newest AI tools and discoveries
+                        delivered to your inbox.
+                    </p>
+
+
+                    <form
+                        class="newsletter"
+                        id="newsletter"
+                    >
+
+                        <input
+                            type="email"
+                            placeholder="Enter your email address"
+                            required
+                        >
+
+                        <button type="submit">
+                            Join NEXA →
+                        </button>
+
+                    </form>
+
+                    <small>
+                        No spam. Just useful AI.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+
+                    <span class="logo-icon">
+                        ✦
+                    </span>
+
+                    NEXA<span class="logo-ai">
+                        AI
+                    </span>
+
+                </a>
+
+                <p>
+                    Discover the tools shaping
+                    the future of artificial intelligence.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Explore</h4>
+
+                <a href="#tools">AI Tools</a>
+                <a href="#trending">Trending</a>
+                <a href="#categories">Categories</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Resources</h4>
+
+                <a href="#">AI Blog</a>
+                <a href="#">Guides</a>
+                <a href="#">Newsletter</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <a href="#about">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Submit Tool</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <span>
+                    © 2026 NEXA AI. All rights reserved.
+                </span>
+
+                <span>
+                    Built for the future ✦
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= TOOL MODAL ================= -->
+
+    <div class="modal" id="toolModal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+            >
+                ×
+            </button>
+
+            <div class="modal-icon">
+                ✦
+            </div>
+
+            <span class="eyebrow">
+                AI TOOL
+            </span>
+
+            <h2 id="modalTitle">
+                Tool Name
+            </h2>
+
+            <p id="modalDescription">
+                Explore this powerful AI tool.
+            </p>
+
+            <button class="modal-button">
+                Visit Tool →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- BACK TO TOP -->
+
+    <button
+        class="back-top"
+        id="backTop"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
